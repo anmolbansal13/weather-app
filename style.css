@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    height: 30rem;
+    width: 20rem;
+    padding: 5px;
+}
+form{
+    padding-top: 1.7rem;
+    display: flex;
+    width: 15rem;
+}
+header input{
+    border: 1px solid white;
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+    padding: 8px;
+    width: 13rem;
+    font-size: large;
+    text-align: center;
+}
+header i{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    padding: 12px;
+    /* margin-right: 5px; */
+    width: 2rem;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: auto; */
+    height: 20rem;
+}
+.data img{
+    height: 6rem;
+}
+.temp{
+    font-size: xx-large;
+    font-weight: 900;
+    max-width: 20rem;
+    height: 2rem;
+    text-align: center;
+}
+.city{
+    font-size: x-large;
+    font-weight: 900;
+    max-width: 20rem;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column;x */
+    align-items: center;
+    padding: 0.5rem;
+    width: 17rem;
+}
+.humidity, .cloud{
+    /* font-size: larger; */
+    font-weight: 800;
+    display: flex;
+    padding:0.3rem;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.value{
+    text-align: center;
+}
+.name{
+    font-size:x-small;
+}

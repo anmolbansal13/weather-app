@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Today</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <form action="">
+                <input id='search-value' type="text" placeholder="Enter city name" value="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </header>
+        
+        <div class="data">
+            <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            <span class="temp">18.3°c</span>
+            <span class="city">Washington, District of Columbia</span>
+        </div>
+
+        <footer>
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="info">
+                    <span class="value">47%</span>
+                    <span class="name">Humidity</span>
+                </div>
+            </div>
+            <!-- <div class="cloud">
+                <i class="fa-solid fa-cloud"></i>
+                <div class="info">
+                    <span class="value">79%</span>
+                    <span class="name">Cloud</span>
+                </div>
+            </div> -->
+        </footer>
+    </main>
+    <script src="app.js"></script>r
+</body>
+</html>
